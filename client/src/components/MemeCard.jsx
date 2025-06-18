@@ -124,7 +124,7 @@ const MemeCard = ({ meme, onUpdate }) => {
                 )}
               </p>
 
-              <form onSubmit={handleBid} className="flex gap-2">
+              <form onSubmit={handleBid} className="flex gap-2 sm:flex-row flex-col items-center">
                 <input
                   type="number"
                   value={bidAmount}
